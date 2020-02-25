@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300,400&subset=cyrillic);
+body.gridlock{margin:0 auto;width:1000px;font-family:'Exo 2',sans-serif;background-color:#f7f7f7}
+body.gridlock section.line-1 div.layout-cell{padding:0 80px 60px;background-color:#fff}
+body.gridlock section.line-1 div.layout-cell h1{text-align:center;font-size:42px;color:#E2B282;padding-top:15px;margin:0;font-weight:500}
+body.gridlock section.line-1 div.layout-cell iframe{width:100%;margin-bottom:5px;height:350px;border:1px solid rgba(0,0,0,.2);box-shadow:-.125rem .125rem .3125rem rgba(0,0,0,.4)}
+body.gridlock section.line-1 div.layout-cell p{line-height:150%;font-size:16px;color:#151515}
+body.gridlock section.line-1 div.layout-cell h2{text-align:center;font-weight:500;line-height:1.1;margin:30px 0 15px}
+body.gridlock section.line-1 div.layout-cell p{margin:0 0 10px}
+body.gridlock section.line-1 div.layout-cell p.podz{text-align:center;font-weight:700;color:#151515;font-size:18px}
+body.gridlock section.line-1 div.layout-cell span.highlight{background-color:#ffeda6}
+body.gridlock section.line-1 div.layout-cell p.bigger{margin:0;font-weight:700;color:#151515;font-size:18px}
+body.gridlock section.line-1 div.layout-cell li{font-size:16px;color:#151515;line-height:150%}
+body.gridlock section.line-1 div.layout-cell ul{margin:0 0 20px}
+body.gridlock section.line-1 div.layout-cell h2{font-size:30px}
+body.gridlock section.line-1 div.layout-cell h5{font-size:18px;font-weight:300;padding-left:10px;color:#705E51;margin:10px 0;border-left:3px solid #705E51}
+body.gridlock section.line-1 div.layout-cell div.wudd{margin:20px 0;border-top:2px dashed rgba(0,0,0,.4);border-bottom:2px dashed rgba(0,0,0,.4)}
+body.gridlock section.line-1 div.layout-cell div.buy-it{margin-top:85px}
+body.gridlock section.line-1 div.layout-cell div.buy-it h2{margin:0;color:#333;line-height:1.1}
+body.gridlock section.line-1 div.layout-cell div.buy-it p{text-align:center;margin:0;font-size:18px}
+body.gridlock section.line-1 div.layout-cell div.buy-it p.but{margin-top:10px}
+body.gridlock section.line-1 div.layout-cell div.buy-it p a{padding:7px 45px 10px;text-decoration:none;background:#e2b282;color:#FFF;transition:.25s all}
+body.gridlock section.line-1 div.layout-cell div.buy-it p a:hover{opacity:.8}
+body.gridlock section.line-1 div.layout-cell div.photo-text p:first-child{float:left;margin:0 10px 0 0}
+body.gridlock section.line-1 div.layout-cell div.photo-text img{border:1px solid rgba(0,0,0,.2);box-shadow:-.125rem .125rem .3125rem rgba(0,0,0,.4);width:300px}
+body.gridlock section.line-1 div.layout-cell div.layout-cl{background-color:#ffeda6;padding:10px 20px;border:1px solid rgba(0,0,0,.3);box-shadow:3px 3px 5px rgba(0,0,0,.4);margin-bottom:30px}
+body.gridlock section.line-1 div.layout-cell div.layout-cl p b{font-size:18px}
+
+@media (max-width:1219px) and (min-width:980px){
+	body.gridlock section.line-1 div.layout-cell div.photo-text img{width:250px}
+	body.gridlock section.line-1 div.layout-cell div.photo-text p{font-size:15.5px}
+	body.gridlock{width:960px}
+}
+
+@media (max-width:979px) and (min-width:740px){
+	body.gridlock section.line-1 div.layout-cell h1{font-size:31px}
+	body.gridlock{width:720px}
+	body.gridlock section.line-1 div.layout-cell p.podz{font-size:17px}
+	body.gridlock h2{font-size:25px}
+	body.gridlock section.line-1 div.layout-cell div.buy-it{margin-top:40px}
+	body.gridlock section.line-1 div.layout-cell h2{font-size:26px}
+	body.gridlock section.line-1 div.layout-cell div.photo-text img{width:205px}
+	body.gridlock section.line-1 div.layout-cell iframe{height:300px}
+}
+
+@media (max-width:739px) and (min-width:500px){
+	body.gridlock section.line-1 div.layout-cell iframe{height:230px}
+	body.gridlock{width:100%}
+	body.gridlock section.line-1 div.layout-cell h2{font-size:23px}
+	body.gridlock section.line-1 div.layout-cell h1{font-size:29px;line-height:1.1}
+	body.gridlock section.line-1 div.layout-cell p.podz{font-size:16px;margin-top:5px;line-height:120%}
+	body.gridlock h2{font-size:22px}
+	body.gridlock section.line-1 div.layout-cell div.photo-text p:first-child{float:inherit;margin-right:0}
+	body.gridlock section.line-1 div.layout-cell div.photo-text img{width:100%}
+	body.gridlock section.line-1 div.layout-cell div.buy-it{margin-top:30px}
+	body.gridlock section.line-1 div.layout-cell h2{margin:40px 0 15px}
+}
+
+@media (max-width:499px) and (min-width:0px){
+	body.gridlock{background-color:#fff;width:300px;margin-left:auto;margin-right:auto}
+	body.gridlock section.line-1 div.layout-cell h2{font-size:20px}
+	body.gridlock section.line-1 div.layout-cell{padding:0 0 60px}
+	body.gridlock section.line-1 div.layout-cell iframe{height:200px}
+	body.gridlock section.line-1 div.layout-cell h1{font-size:26px}
+	body.gridlock section.line-1 div.layout-cell p.podz{font-size:16px;margin-top:5px;line-height:120%}
+	body.gridlock h2{font-size:20px}
+	body.gridlock section.line-1 div.layout-cell div.photo-text p:first-child{float:inherit;margin-right:0}
+	body.gridlock section.line-1 div.layout-cell div.photo-text img{width:100%}
+	body.gridlock section.line-1 div.layout-cell div.buy-it{margin-top:30px}
+	body.gridlock section.line-1 div.layout-cell h2{margin:40px 0 15px}
+}
